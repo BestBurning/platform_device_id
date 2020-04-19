@@ -1,6 +1,6 @@
 # platform_device_id
 
-get device id from android、ios、windows、linux
+get device id from android、ios、windows、linux、mac
 
 ## Description
 

@@ -2,7 +2,7 @@ name: platform_device_id
 description: get platform device id
 version: 0.0.1
 author: bruce <zhushuai026@gmail.com>
-homepage:
+homepage: https://github.com/BestBurning/platform_device_id
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
