@@ -1,14 +1,29 @@
 # platform_device_id
 
-A new flutter plugin project.
+get device id from android、ios、windows、linux
+
+## Description
+
+- Windows 
+
+`BIOS UUID` e.g. `99A4D301-53F5-11CB-8CA0-9CA39A9E1F01`
+- Linux 
+
+`BIOS UUID` e.g. `32a70060-2a39-437e-88e2-d68e6154de9f`
+- Mac 
+
+`IOPlatformUUID` e.g. `02662E79-E342-521C-98EA-D4C18B61FEF3`
+
+- Android `androidid` 
+- IOS `identifierForVendor`
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+a simple usage example:
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```
+import 'package:platform_device_id/platform_device_id.dart';
+
+String deviceId = await PlatformDeviceId.getDeviceId;
+```

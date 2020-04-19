@@ -1,7 +1,7 @@
 name: platform_device_id
-description: A new flutter plugin project.
+description: get platform device id
 version: 0.0.1
-author:
+author: bruce <zhushuai026@gmail.com>
 homepage:
 
 environment:

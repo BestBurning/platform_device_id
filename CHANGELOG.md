@@ -1,3 +1,4 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+support android、ios、
+support go-flutter for windows、linux、mac
