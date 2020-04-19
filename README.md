@@ -14,8 +14,13 @@ get device id from android、ios、windows、linux、mac
 
 `IOPlatformUUID` e.g. `02662E79-E342-521C-98EA-D4C18B61FEF3`
 
-- Android `androidid` 
-- IOS `identifierForVendor`
+- Android 
+
+`androidid` 
+
+- IOS 
+
+`identifierForVendor`
 
 
 ## Getting Started
