@@ -8,4 +8,4 @@ require (
 	github.com/pkg/errors v0.9.1
 )
 
-replace github.com/BestBurning/platform_device_id/go => /Users/shuai/Documents/GitRepo/mine/platform_device_id/go
+replace github.com/BestBurning/platform_device_id/go => D:\gitRepo\platform_device_id\go
