@@ -32,3 +32,7 @@ import 'package:platform_device_id/platform_device_id.dart';
 
 String deviceId = await PlatformDeviceId.getDeviceId;
 ```
+
+## go-flutter for win/mac/linux
+
+see [here](https://github.com/BestBurning/platform_device_id/tree/master/go)
