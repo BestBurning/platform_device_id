@@ -15,7 +15,7 @@ func getPlatformDeviceId() (deviceId string, err error) {
 	out, err := cmd.CombinedOutput()
 	if err != nil {
 		fmt.Println(string(out))
-		return "", errors.Wrap(err, "failed to shutdown")
+		return "", errors.Wrap(err, "failed to get deviceId")
 	}
 	deviceId =  strings.Split(string(out),"\n")[1]
 	return deviceId , nil

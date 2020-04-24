@@ -39,6 +39,7 @@ class _MyAppState extends State<MyApp> {
 
     setState(() {
       _deviceId = deviceId;
+      print("deviceId->$_deviceId");
     });
   }
 
@@ -50,7 +51,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text('Device ID : $_deviceId\n'),
+          child: Text('Device ID : $_deviceId'),
         ),
       ),
     );
