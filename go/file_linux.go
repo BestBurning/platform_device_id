@@ -1,7 +1,7 @@
 package platform_device_id
 
 import (
-	"fmt"
+	// "fmt"
 	"os/exec"
 
 	"github.com/pkg/errors"
