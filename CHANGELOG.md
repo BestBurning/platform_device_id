@@ -1,3 +1,6 @@
+## 0.1.2
+upgrade dependency
+
 ## 0.1.1
 fix bug for go-flutter in linux
 
