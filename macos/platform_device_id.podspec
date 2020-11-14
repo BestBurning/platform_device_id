@@ -5,13 +5,13 @@
 Pod::Spec.new do |s|
   s.name             = 'platform_device_id'
   s.version          = '0.0.1'
-  s.summary          = 'A new flutter plugin project.'
+  s.summary          = 'macos for platform_device_id plugin.'
   s.description      = <<-DESC
 A new flutter plugin project.
                        DESC
   s.homepage         = 'https://github.com/BestBurning/platform_device_id'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'zhushuai026@gmail.com' }
+  s.author           = { 'di1shuai' => 'zhushuai026@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files     = 'Classes/**/*'
   s.dependency 'FlutterMacOS'
