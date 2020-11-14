@@ -32,6 +32,19 @@ import 'package:platform_device_id/platform_device_id.dart';
 
 String deviceId = await PlatformDeviceId.getDeviceId;
 ```
+## Support Platform
+ 
+- [x] Android
+- [x] IOS
+- [x] MacOS   `go-flutter` `native`
+- [x] Windows `go-flutter`
+- [x] Linux   `go-flutter`
+
+## Todo
+
+- [ ] Windows `native`
+- [ ] Linux `native`
+
 
 ## go-flutter for win/mac/linux
 
