@@ -1,7 +1,5 @@
 # platform_device_id
 
-![publish](https://github.com/BestBurning/platform_device_id/workflows/Publish/badge.svg)
-
 get device id from android、ios、windows、linux、mac
 
 ## Description
