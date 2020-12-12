@@ -1,5 +1,7 @@
 # platform_device_id
 
+![publish](https://github.com/BestBurning/platform_device_id/workflows/Publish/badge.svg)
+
 get device id from android、ios、windows、linux、mac
 
 ## Description
@@ -16,11 +18,11 @@ get device id from android、ios、windows、linux、mac
 
 - Android 
 
-`androidid` 
+`AndroidId` e.g. `9774d56d682e549c`
 
 - IOS 
 
-`identifierForVendor`
+`IdentifierForVendor` e.g. `9C287922-EE26-4501-94B5-DDE6F83E1475`
 
 
 ## Getting Started
@@ -36,16 +38,16 @@ String deviceId = await PlatformDeviceId.getDeviceId;
  
 - [x] Android
 - [x] IOS
-- [x] MacOS   `go-flutter` `native`
+- [x] MacOS   `go-flutter` `flutter`
 - [x] Windows `go-flutter`
 - [x] Linux   `go-flutter`
 
 ## Todo
 
-- [ ] Windows `native`
-- [ ] Linux `native`
+- [ ] Windows `flutter`
+- [ ] Linux `flutter`
 
 
-## go-flutter for win/mac/linux
+## Go-flutter for windows/macos/linux
 
 see [here](https://github.com/BestBurning/platform_device_id/tree/master/go)

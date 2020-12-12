@@ -1,3 +1,6 @@
+## 0.1.4
+upgrade dependency
+
 ## 0.1.3
 support native macos
 

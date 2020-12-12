@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:platform_device_id/platform_device_id.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('platform_device_id');
+  const MethodChannel channel = MethodChannel('com.di1shaui.flutter/platform_device_id');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -17,7 +17,8 @@ void main() {
     channel.setMockMethodCallHandler(null);
   });
 
-  test('getDeviceId', () async {
-    expect(await PlatformDeviceId.getDeviceId, '42');
+  test('Get Device ID ', () async {
+    String deviceID = await PlatformDeviceId.getDeviceId;
+    expect(deviceID, '42');
   });
 }

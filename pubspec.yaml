@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  device_info: 2.0.0-nullsafety.1
+  device_info: ^2.0.0-nullsafety.1
 
 dev_dependencies:
   flutter_test:
