@@ -30,7 +30,7 @@ a simple usage example:
 ```
 import 'package:platform_device_id/platform_device_id.dart';
 
-String deviceId = await PlatformDeviceId.getDeviceId;
+String? deviceId = await PlatformDeviceId.getDeviceId;
 ```
 ## Support Platform
  
