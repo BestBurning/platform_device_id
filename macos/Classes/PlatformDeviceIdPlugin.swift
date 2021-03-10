@@ -3,7 +3,7 @@ import FlutterMacOS
 
 public class PlatformDeviceIdPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "com.di1shaui.flutter/platform_device_id", binaryMessenger: registrar.messenger)
+    let channel = FlutterMethodChannel(name: "com.di1shuai.flutter/platform_device_id", binaryMessenger: registrar.messenger)
     let instance = PlatformDeviceIdPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }

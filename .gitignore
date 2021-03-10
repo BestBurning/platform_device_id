@@ -7,4 +7,8 @@
 build/
 *.iml
 pubspec.lock
-.idea/
+.idea/*
+
+
+.flutters
+.flutter-plugins-dependencies

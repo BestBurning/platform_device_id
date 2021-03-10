@@ -1,11 +1,11 @@
 arguments=
 auto.sync=false
 build.scans.enabled=false
-connection.gradle.distribution=GRADLE_DISTRIBUTION(VERSION(6.3))
+connection.gradle.distribution=GRADLE_DISTRIBUTION(VERSION(6.8))
 connection.project.dir=
 eclipse.preferences.version=1
 gradle.user.home=
-java.home=/Users/shuai/.jenv/versions/1.8
+java.home=/Users/shuai/.jenv/versions/15.0.1
 jvm.arguments=
 offline.mode=false
 override.workspace.settings=true

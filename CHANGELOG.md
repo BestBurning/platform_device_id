@@ -1,3 +1,6 @@
+## 0.2.0
+upgrade dependency & support flutter 2.x & null safety
+
 ## 0.1.3-nullsafety
 upgrade dependency
 

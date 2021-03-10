@@ -5,7 +5,7 @@ import (
 	"github.com/go-flutter-desktop/go-flutter/plugin"
 )
 
-const channelName = "com.di1shaui.flutter/platform_device_id"
+const channelName = "com.di1shuai.flutter/platform_device_id"
 
 const (
 	methodGetDeviceId   = "getDeviceId"
