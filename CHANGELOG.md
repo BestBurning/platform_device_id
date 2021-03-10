@@ -1,3 +1,6 @@
+## 0.2.1
+update readme usage e.g for null safety
+
 ## 0.2.0
 upgrade dependency & support flutter 2.x & null safety
 
