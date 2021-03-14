@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   platform_device_id_platform_interface: ^0.3.0
-  platform_device_id_macos: ^0.0.1
+  platform_device_id_macos: ^0.3.0
   device_info: ^2.0.0
 
 dev_dependencies:
