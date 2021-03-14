@@ -1,6 +1,6 @@
 name: platform_device_id
 description: You can get device id from platform - linux/mac/windows/android/ios.
-version: 0.2.1
+version: 0.3.0
 homepage: https://github.com/BestBurning/platform_device_id
 
 environment:

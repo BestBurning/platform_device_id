@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:device_info/device_info.dart';
+import 'package:platform_device_id_platform_interface/platform_device_id_platform_interface.dart';
 
 /// Provides device id information.
 class PlatformDeviceId {
@@ -20,7 +21,7 @@ class PlatformDeviceId {
         IosDeviceInfo iosInfo = await deviceInfoPlugin.iosInfo;
         deviceId = iosInfo.identifierForVendor;
       } else {
-        deviceId = await PlatformDeviceId.getDeviceId;
+        deviceId = await PlatformDeviceIdPlatform.instance.getDeviceId();
       }
     } on PlatformException {
       deviceId = '';
