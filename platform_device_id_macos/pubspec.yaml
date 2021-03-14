@@ -1,0 +1,24 @@
+name: platform_device_id_macos
+description: macOS implementation of the platform_device_id plugin.
+version: 0.0.1
+homepage: https://github.com/flutter/plugins/tree/master/packages/platform_device_id/platform_device_id_macos
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    implements: platform_device_id
+    platforms:
+      macos:
+        pluginClass: PlatformDeviceIdMacosPlugin
+        fileName: platform_device_id_macos.dart

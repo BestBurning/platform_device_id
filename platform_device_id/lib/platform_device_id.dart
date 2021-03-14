@@ -5,9 +5,6 @@ import 'package:device_info/device_info.dart';
 
 /// Provides device id information.
 class PlatformDeviceId {
-  /// MethodChannel
-  static const MethodChannel _channel =
-      const MethodChannel('com.di1shuai.flutter/platform_device_id');
 
   /// Provides device and operating system information.
   static final DeviceInfoPlugin deviceInfoPlugin = DeviceInfoPlugin();
@@ -23,7 +20,7 @@ class PlatformDeviceId {
         IosDeviceInfo iosInfo = await deviceInfoPlugin.iosInfo;
         deviceId = iosInfo.identifierForVendor;
       } else {
-        deviceId = await _channel.invokeMethod('getDeviceId');
+        deviceId = await PlatformDeviceId.getDeviceId;
       }
     } on PlatformException {
       deviceId = '';
