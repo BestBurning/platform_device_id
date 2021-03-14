@@ -1,0 +1,18 @@
+name: platform_device_id_platform_interface
+description: A common platform interface for the platform_device_id plugin.
+homepage: https://github.com/BestBurning/platform_device_id/tree/master/platform_device_id_platform_interface
+version: 0.3.0
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: ">=1.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
