@@ -1,3 +1,6 @@
+## 0.3.1
+update dependencies
+
 ## 0.3.0
 refactory to federated plugin
 
