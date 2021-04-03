@@ -1,3 +1,6 @@
+## 0.4.1
+linux support null safety
+
 ## 0.4.0
 support native linux
 
