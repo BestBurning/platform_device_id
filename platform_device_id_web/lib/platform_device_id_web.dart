@@ -8,10 +8,8 @@ import 'dart:html' as html show window;
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:platform_device_id_platform_interface/platform_device_id_platform_interface.dart';
 
-
 /// A web implementation of the PlatformDeviceIdWeb plugin.
-class PlatformDeviceIdWebPlugin extends PlatformDeviceIdPlatform{
-
+class PlatformDeviceIdWebPlugin extends PlatformDeviceIdPlatform {
   static void registerWith(Registrar registrar) {
     PlatformDeviceIdPlatform.instance = PlatformDeviceIdWebPlugin();
   }
