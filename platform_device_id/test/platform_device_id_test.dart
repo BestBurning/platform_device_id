@@ -3,7 +3,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:platform_device_id/platform_device_id.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('com.di1shuai.flutter/platform_device_id');
+  const MethodChannel channel =
+      MethodChannel('com.di1shuai.flutter/platform_device_id');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

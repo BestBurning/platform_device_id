@@ -30,5 +30,5 @@ flutter:
       macos:
         pluginClass: PlatformDeviceIdMacosPlugin
       linux:
-        pluginClass: PlatformDeviceIdLinuxPlugin
+        default_package: platform_device_id_linux
 

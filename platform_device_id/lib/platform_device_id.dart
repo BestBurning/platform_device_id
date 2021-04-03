@@ -6,7 +6,6 @@ import 'package:platform_device_id_platform_interface/platform_device_id_platfor
 
 /// Provides device id information.
 class PlatformDeviceId {
-
   /// Provides device and operating system information.
   static final DeviceInfoPlugin deviceInfoPlugin = DeviceInfoPlugin();
 
