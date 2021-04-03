@@ -38,13 +38,12 @@ String? deviceId = await PlatformDeviceId.getDeviceId;
 - [x] IOS
 - [x] MacOS   `go-flutter` `flutter`
 - [x] Windows `go-flutter`
-- [x] Linux   `go-flutter`
+- [x] Linux   `go-flutter` `flutter`
 
 ## Todo
 
 - [ ] Windows `flutter`
-- [ ] Linux `flutter`
-
+- [ ] Web `flutter`
 
 ## Go-flutter for windows/macos/linux
 

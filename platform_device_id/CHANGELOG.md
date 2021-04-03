@@ -1,3 +1,6 @@
+## 0.4.0
+support native linux
+
 ## 0.3.1
 update dependencies
 
