@@ -1,6 +1,6 @@
-# platform_device_id_macos
+# platform_device_id_linux
 
-The macos implementation of [`platform_device_id`][1].
+The linux implementation of [`platform_device_id`][1].
 
 ## Usage
 
@@ -16,18 +16,18 @@ This is what the above means to your `pubspec.yaml`:
 ...
 dependencies:
   ...
-  platform_device_id: ^0.3.0
+  platform_device_id: ^0.4.0
   ...
 ```
 
-If you wish to use the macos package only, you can add  `platform_device_id_macos` as a
+If you wish to use the linux package only, you can add  `platform_device_id_linux` as a
 dependency:
 
 ```yaml
 ...
 dependencies:
   ...
-  platform_device_id_macos: ^0.3.0
+  platform_device_id_linux: ^0.0.1
   ...
 ```
 

@@ -1,0 +1,24 @@
+name: platform_device_id_linux
+description: linux implementation of the platform_device_id plugin.
+version: 0.0.1
+homepage: https://github.com/BestBurning/platform_device_id/tree/master/platform_device_id_linux
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    implements: platform_device_id
+    platforms:
+      linux:
+        pluginClass: PlatformDeviceIdLinuxPlugin
+        fileName: platform_device_id_linux.dart

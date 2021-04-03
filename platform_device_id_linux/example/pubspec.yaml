@@ -1,16 +1,16 @@
-name: platform_device_id_macos_example
-description: Demonstrates how to use the platform_device_id_macos plugin.
-
+name: platform_device_id_linux_example
+description: Demonstrates how to use the platform_device_id_linux plugin.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0-0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  platform_device_id_macos:
+  platform_device_id_linux:
+
     path: ../
   platform_device_id_platform_interface: ^0.3.0
   cupertino_icons: ^1.0.2
@@ -22,4 +22,5 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+
 
