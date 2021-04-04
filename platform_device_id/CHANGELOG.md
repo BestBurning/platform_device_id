@@ -1,3 +1,6 @@
+## 1.0.1
+update dependencies
+
 ## 1.0.0
 support native windows. 
 now , it's stable for android/ios/macos/linux/windows/web platform.

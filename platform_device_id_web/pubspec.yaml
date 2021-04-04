@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  platform_device_id_platform_interface: ^0.3.0
+  platform_device_id_platform_interface: ^1.0.0
 
 dev_dependencies:
   flutter_test:
