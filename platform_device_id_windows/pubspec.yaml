@@ -15,7 +15,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 flutter:
-  implements: platform_device_id
   plugin:
     platforms:
       windows:
