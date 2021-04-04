@@ -22,6 +22,9 @@ get device id from android、ios、windows、linux、mac
 
 `IdentifierForVendor` e.g. `9C287922-EE26-4501-94B5-DDE6F83E1475`
 
+- Web
+
+`UserAgent` e.g. `Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36`
 
 ## Getting Started
 
@@ -39,11 +42,12 @@ String? deviceId = await PlatformDeviceId.getDeviceId;
 - [x] MacOS   `go-flutter` `flutter`
 - [x] Windows `go-flutter`
 - [x] Linux   `go-flutter` `flutter`
+- [x] Web `flutter`
 
 ## Todo
 
 - [ ] Windows `flutter`
-- [ ] Web `flutter`
+
 
 ## Go-flutter for windows/macos/linux
 
