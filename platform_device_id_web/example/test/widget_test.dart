@@ -17,10 +17,10 @@ void main() {
 
     // Verify that platform version is retrieved.
     expect(
-      find.byWidgetPredicate(
-        (Widget widget) =>
-            widget is Text && widget.data.startsWith('Running on:'),
-      ),
+      find.byWidgetPredicate((Widget widget) =>
+          widget is Text &&
+          widget.data != null &&
+          widget.data!.startsWith('Device ID')),
       findsOneWidget,
     );
   });
