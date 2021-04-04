@@ -30,7 +30,7 @@ get device id from android、ios、windows、linux、mac
 
 a simple usage example:
 
-```
+```dart
 import 'package:platform_device_id/platform_device_id.dart';
 
 String? deviceId = await PlatformDeviceId.getDeviceId;
@@ -39,10 +39,10 @@ String? deviceId = await PlatformDeviceId.getDeviceId;
  
 - [x] Android
 - [x] IOS
-- [x] MacOS   `go-flutter` `flutter`
+- [x] MacOS
 - [x] Windows `go-flutter`
-- [x] Linux   `go-flutter` `flutter`
-- [x] Web `flutter`
+- [x] Linux
+- [x] Web
 
 ## Todo
 
