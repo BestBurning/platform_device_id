@@ -1,6 +1,6 @@
 name: platform_device_id_web
 description: web implementation of the platform_device_id plugin.
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/BestBurning/platform_device_id/tree/master/platform_device_id_linux
 
 environment:
