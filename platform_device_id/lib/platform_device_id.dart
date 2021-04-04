@@ -14,9 +14,9 @@ class PlatformDeviceId {
   static Future<String?> get getDeviceId async {
     String? deviceId;
     try {
-      if (kIsWeb){
+      if (kIsWeb) {
         deviceId = await PlatformDeviceIdPlatform.instance.getDeviceId();
-      }else if (Platform.isAndroid) {
+      } else if (Platform.isAndroid) {
         AndroidDeviceInfo androidInfo = await deviceInfoPlugin.androidInfo;
         deviceId = androidInfo.androidId;
       } else if (Platform.isIOS) {
