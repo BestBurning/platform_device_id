@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
     String? deviceId;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      deviceId = await PlatformDeviceId.getDeviceId;
+      deviceId = await PlatformDeviceId.fetchDeviceId();
     } on PlatformException {
       deviceId = 'Failed to get deviceId.';
     }
