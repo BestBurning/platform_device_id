@@ -45,6 +45,11 @@ String? deviceId = await PlatformDeviceId.getDeviceId;
 - [x] Linux
 - [x] Web
 
+## TODO
+
+- [ ] Support Dart Native platform device id
+- [ ] Web id change
+
 ## Plugins Info
 
 | Plugin | Pub | Points | Popularity | Likes |
