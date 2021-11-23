@@ -11,7 +11,7 @@ class PlatformDeviceId {
   static final DeviceInfoPlugin deviceInfoPlugin = DeviceInfoPlugin();
 
   /// Information derived from `android`-`androidId` or `ios`-`identifierForVendor`
-  static Future<String?> get getDeviceId async {
+  static Future<String?> fetchDeviceId() async {
     String? deviceId;
     try {
       if (kIsWeb) {
