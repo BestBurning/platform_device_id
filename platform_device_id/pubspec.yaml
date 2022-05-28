@@ -15,7 +15,7 @@ dependencies:
   platform_device_id_linux: ^1.0.0
   platform_device_id_web: ^1.0.0
   platform_device_id_windows: ^1.0.0
-  device_info: ^2.0.0
+  device_info_plus: ^2.0.0
 
 dev_dependencies:
   flutter_test:
