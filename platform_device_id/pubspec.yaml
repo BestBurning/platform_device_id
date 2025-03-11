@@ -1,10 +1,10 @@
 name: platform_device_id
 description: You can get device id from platform - linux/mac/windows/android/ios/web.
-version: 1.0.1
+version: 1.0.3
 homepage: https://github.com/BestBurning/platform_device_id
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: ">=1.22.0"
 
 dependencies:
@@ -15,7 +15,7 @@ dependencies:
   platform_device_id_linux: ^1.0.0
   platform_device_id_web: ^1.0.0
   platform_device_id_windows: ^1.0.0
-  device_info: ^2.0.0
+  device_info_plus: ^11.3.3
 
 dev_dependencies:
   flutter_test:

@@ -1,6 +1,6 @@
 name: platform_device_id_web
 description: web implementation of the platform_device_id plugin.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/BestBurning/platform_device_id/tree/master/platform_device_id_linux
 
 environment:
@@ -13,6 +13,7 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   platform_device_id_platform_interface: ^1.0.0
+  web: ^1.1.1
 
 dev_dependencies:
   flutter_test:
